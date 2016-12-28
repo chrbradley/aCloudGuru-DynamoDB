@@ -6,7 +6,7 @@
 ##          configured AWS tools
 ##          installed python2.7+
 ##          installed boto3 (pip install boto3)
-##          Installed fake-factory module
+##          Installed Faker module
 ##          Installed tqdm module
 ##          'loadmin' AWS configuration profile - with admin rights
 ##          either no data model loaded, or data model v1 loaded (this will remove v1)
@@ -17,7 +17,7 @@ import boto3, random, csv, tqdm, time, botocore, uuid
 from botocore.exceptions import ClientError
 from sys import version_info
 from base64 import b64encode
-from Faker import Factory
+from faker import Factory
 fake = Factory.create()
 py3 = version_info[0] > 2 #creates boolean value for test that Python major version > 2
 
