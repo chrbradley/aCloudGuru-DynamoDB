@@ -49,7 +49,7 @@
         "AWS::CloudFormation::Init" : {
           "config" : {
             "sources" : {
-              "/home/ec2-user/" : "https://github.com/acantril/aCloudGuru-DynamoDB/tarball/master"
+              "/home/ec2-user/" : "https://github.com/chrbradley/aCloudGuru-DynamoDB/tarball/master"
             },
             "commands" : {
               "1-retryjson" : {
